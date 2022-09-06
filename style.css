@@ -1,0 +1,125 @@
+body {
+  background: rgb(238, 242, 245);
+  font-family: 'Urbanist', sans-serif;
+}
+
+.heading {
+  display: inline-block;
+  font-family: 'Urbanist', sans-serif;
+  
+}
+.main__heading {
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 80px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(144.26deg, rgb(92, 232, 255) -25%, rgb(0, 100, 255) 32.85%, rgb(0, 0, 0) 122.06%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+.heading__undertext {
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+
+
+
+.button {
+  display: flex;
+  height: 70px;
+  width: 80px;
+  padding: 0;
+  margin-left: 60px;
+  padding-right: 50px;
+  margin-top: 20px;
+  color: white;background-image: linear-gradient(to right, rgb(1, 98, 255) , rgb(92, 232, 255));
+  border: none;
+  outline: none;
+  border-radius:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  margin-top: 20px;
+  box-shadow: 0px 56px 80px rgba(21, 171, 245, 0.3);
+
+}
+.button:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+ 
+
+  transform: scale(1.04);
+}
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+ 
+  
+  height: 100%;
+  font-family: 'Urbanist', sans-serif;
+  transition: font-size 0.15s,
+  transform 0.15s;
+
+  
+}
+.button__icon {
+  padding-left:20px;
+  transform: scale(1.7);
+  padding-bottom: 12px;
+
+}
+
+
+.button__icon:hover {
+  transform: scale(1.9);
+}
+
+
+
+
+.container__one {
+  display: block;
+  background-color: rgb(94, 85, 255);
+  padding-bottom: 20px;
+ 
+  margin-top: 100px;
+  margin-left: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.image-one {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  width: 300px;
+  border-radius:  0 0 30px 30px;
+  transition: transform 0.30s,
+  box-shadow 0.30s;
+  cursor: pointer;
+}
+.container__one-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.preview {
+  color: rgb(10, 43, 94);
+  
+}
+
+.image-one:hover  {
+  transform: scale(1.1);
+  box-shadow: 0px -56px 80px rgba(0, 0, 0, 0.05);
+}
+
